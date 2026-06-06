@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "spot-finder",
+=======
+  "name": "go-react",
+>>>>>>> db85c7fe1a200cbab34443c1fa7299ec6af88ba6
   "private": true,
   "version": "0.0.0",
   "type": "module",
