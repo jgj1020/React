@@ -1,12 +1,10 @@
 import { useState } from 'react';
 
 function App() {
-<<<<<<< HEAD
   // 1. 현재 선택된 카테고리 상태 (기본값은 'PC방')
   const [category, setCategory] = useState('PC방');
 
-  // 2. 서버(API)에서 받아왔다고 가정하는 실시간 매장 데이터 상자
-  // 서버(API)에서 받아왔다고 가정하는 역촌동 실시간 매장 데이터
+  // 2. 서버(API)에서 받아왔다고 가정하는 역촌동 실시간 매장 데이터
   const storeData = {
     'PC방': [
       { name: '아크 PC방 역촌점', total: 120, jary: 15, price: '1시간 1,500원' },
@@ -102,31 +100,6 @@ function App() {
           </div>
         ))}
       </div>
-=======
-  // 1. 기본값이 0인 전광판 상자 세트 만들기
-  const [number, setNumber] = useState(0);
-  <h1>Go React!</h1>
-  return (
-    <div style={{ textAlign: 'center', marginTop: '50px' }}>
-      {/* 2. 전광판 화면에 띄우기 */}
-      <h1 style={{ fontSize: '40px' }}>{number}</h1>
-
-      {/* 3. 1 더하기 버튼 */}
-      <button 
-        onClick={() => setNumber(number + 1)} 
-        style={{ padding: '10px 20px', fontSize: '18px', marginRight: '10px' }}
-      >
-        1 더하기
-      </button>
-
-      {/* 4. 방금 직접 만드신 멋진 1 빼기 버튼! */}
-      <button 
-        onClick={() => setNumber(number - 1)} 
-        style={{ padding: '10px 30px', fontSize: '18px' }}
-      >
-        1 빼기
-      </button>
->>>>>>> db85c7fe1a200cbab34443c1fa7299ec6af88ba6
     </div>
   );
 }
